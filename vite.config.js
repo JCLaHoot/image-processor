@@ -9,7 +9,7 @@ export default {
         host: true, // Open to local network and display URL
         open: !('SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in process.env) // Open if it's not a CodeSandbox
     },
-    base: '/', // Use absolute paths for assets
+    base: '/image-processor/', // name of GH-Pages repo
     build:
     {
         outDir: '../docs', // Output in the docs/ folder
