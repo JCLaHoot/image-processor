@@ -1,8 +1,5 @@
-import UIManager from "./app/UIManager.js";
+import App from "./app/App.js";
 
-
-
-const uiManager = new UIManager
-
+const app = new App()
 
 
